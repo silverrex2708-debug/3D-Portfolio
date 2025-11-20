@@ -21,14 +21,14 @@ const NAV_LINKS = [
     img: "/assets/nav-link-previews/skills.png",
   },
   {
-    title: "proyectos",
-    href: "#projects",
+    title: "ilustraciones",
+    href: "#illustrations",
     img: "/assets/nav-link-previews/projects.png",
   },
   {
-    title: "testimonios",
-    href: "#testimonials",
-    img: "/assets/nav-link-previews/testimonials.png",
+    title: "animaciones",
+    href: "#animations",
+    img: "/assets/nav-link-previews/animations.png",
   },
   {
     title: "contacto",

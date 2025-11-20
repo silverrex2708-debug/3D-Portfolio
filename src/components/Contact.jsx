@@ -117,7 +117,7 @@ const Contact = () => {
       )}
       <div className="w-full min-h-screen">
         <h2 className="text-white text-center font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-4">
-          Trabajemos Juntos
+          Contáctame
         </h2>
         <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-6 lg:gap-10 overflow-hidden text-white px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -174,7 +174,7 @@ const Contact = () => {
                   name="message"
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="Cuéntame sobre tu proyecto,"
+                  placeholder="Déjame saber cómo puedo ayudarte."
                   className="bg-[#07080d] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#fafafa8a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full resize-none"
                 />
               </label>

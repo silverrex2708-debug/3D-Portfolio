@@ -72,8 +72,8 @@ const Works = () => {
     <>
       <div>
         <motion.div variants={textVariant()}>
-          <p className={`${styles.sectionSubText} `}>Mi trabajo</p>
-          <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
+          <p className={`${styles.sectionSubText} `}>MI PORTAFOLIO DE</p>
+          <h2 className={`${styles.sectionHeadText}`}>Ilustraciones.</h2>
         </motion.div>
         <div className="hero-text">
           <motion.span
@@ -122,4 +122,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "projects");
+export default SectionWrapper(Works, "illustrations");
