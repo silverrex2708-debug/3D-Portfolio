@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { Tilt } from "react-tilt";
+import Slider from "react-slick";
+import { SiBehance } from "react-icons/si";
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 import { animations } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -13,26 +18,38 @@ const AnimationCard = ({
   description,
   tags,
   video,
+  source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-[#111522] p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-[#111522] p-5 rounded-2xl w-full sm:max-w-4xl mx-auto"
       >
-        <div className="relative w-full h-[200px]">
+        <div className="relative w-full aspect-video bg-black rounded-xl">
           <video
             src={video}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-contain"
             autoPlay
             loop
             muted
             playsInline
           />
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              title="Ver en Behance"
+            >
+              <SiBehance
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="mt-5">
@@ -56,6 +73,13 @@ const AnimationCard = ({
 };
 
 const Animations = () => {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    };
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -72,10 +96,12 @@ const Animations = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
-        {animations.map((anim, index) => (
-          <AnimationCard key={`animation-${index}`} index={index} {...anim} />
-        ))}
+      <div className="mt-20">
+        <Slider {...settings}>
+          {animations.map((anim, index) => (
+            <AnimationCard key={`animation-${index}`} index={index} {...anim} />
+          ))}
+        </Slider>
       </div>
     </>
   );

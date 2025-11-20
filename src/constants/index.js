@@ -198,52 +198,46 @@ const projects = [
 
 const animations = [
   {
-    name: "Animación Final Tercer Corte",
+    name: "Baile entre la nieve y el hielo",
     description: "Una animación increíble.",
-    tags: [
-      { name: "2D Animation", color: "blue-text-gradient" },
-    ],
+    tags: [{ name: "2D Animation", color: "blue-text-gradient" }],
     video: animacionFinal,
+    source_code_link: "https://www.behance.net/gallery/238641501/Baile-entre-la-nieve-y-el-hielo-(Animacion)",
   },
   {
     name: "Armilla Ciudad Invisible",
     description: "Una animación increíble.",
-    tags: [
-      { name: "2D Animation", color: "green-text-gradient" },
-    ],
+    tags: [{ name: "2D Animation", color: "green-text-gradient" }],
     video: armilla,
+    source_code_link: "https://www.behance.net/gallery/225209379/Ciudad-Invisible-Armilla",
   },
   {
     name: "Año del Dragon Sofa",
     description: "Una animación increíble.",
-    tags: [
-      { name: "2D Animation", color: "pink-text-gradient" },
-    ],
+    tags: [{ name: "2D Animation", color: "pink-text-gradient" }],
     video: dragonSofa,
+    source_code_link: "https://www.behance.net/gallery/225208995/Ano-nuevo-del-Dragon-de-Fuego",
   },
   {
     name: "Corto Animado - Un Espectaculo para entretenerse",
     description: "Una animación increíble.",
-    tags: [
-      { name: "2D Animation", color: "orange-text-gradient" },
-    ],
+    tags: [{ name: "2D Animation", color: "orange-text-gradient" }],
     video: cortoAnimado,
+    source_code_link: "https://www.behance.net/gallery/237059885/Animacion-Un-Espectaculo-para-Entretenerse",
   },
   {
     name: "Guerra campal - Stop Motión",
     description: "Una animación increíble.",
-    tags: [
-      { name: "Stop Motion", color: "violet-text-gradient" },
-    ],
+    tags: [{ name: "Stop Motion", color: "violet-text-gradient" }],
     video: guerraCampal,
+    source_code_link: "https://www.behance.net/gallery/233894029/Guerra-Campal-Stop-Motion",
   },
   {
     name: "Rotoscopia Baile",
     description: "Una animación increíble.",
-    tags: [
-      { name: "Rotoscoping", color: "blue-text-gradient" },
-    ],
+    tags: [{ name: "Rotoscoping", color: "blue-text-gradient" }],
     video: rotoscopia,
+    source_code_link: "https://www.behance.net/gallery/234826373/Animacion-Rotoscopia-10-Segundos",
   },
 ];
 
