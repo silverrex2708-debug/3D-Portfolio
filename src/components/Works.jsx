@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { Tilt } from "react-tilt";
+import { SiBehance } from "react-icons/si";
 
-import { github } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
@@ -30,7 +30,7 @@ const ProjectCard = ({
         <div className="relative w-full h-[200px]">
           <img
             src={image}
-            alt="project_image"
+            alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
 
@@ -38,10 +38,9 @@ const ProjectCard = ({
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              title="Ver en Behance"
             >
-              <img
-                src={github}
-                alt="source code"
+              <SiBehance
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
@@ -73,8 +72,8 @@ const Works = () => {
     <>
       <div>
         <motion.div variants={textVariant()}>
-          <p className={`${styles.sectionSubText} `}>My work</p>
-          <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+          <p className={`${styles.sectionSubText} `}>Mi trabajo</p>
+          <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
         </motion.div>
         <div className="hero-text">
           <motion.span
@@ -82,7 +81,7 @@ const Works = () => {
             className="mt-3 text-secondary text-[30px] max-w-3xl leading-[50px]"
           >
             <h1>
-              Shaping
+              Transformando
               <span className="slide pl-3">
                 <span className="wrapper">
                   {words.map((word, index) => (
@@ -97,7 +96,7 @@ const Works = () => {
                       />
                       <span 
                         className="font-extrabold text-white" 
-                        style={{ 
+                        style={{
                           fontFamily: word.font, 
                           textShadow: '0 0 4px #8ec5ff, 0 0 6px white' 
                         }}
@@ -109,7 +108,7 @@ const Works = () => {
                 </span>
               </span>
             </h1>
-            <h1>into Real Projects that Deliver Results</h1>
+            <h1>en Proyectos Reales que Entregan Resultados</h1>
           </motion.span>
         </div>
 

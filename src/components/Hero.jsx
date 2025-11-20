@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
-  const typedItems = ["Developer", "Freelancer", "Designer", "Learner"];
+  const typedItems = ["Ilustrador", "Animador 2D", "Diseñador", "Creativo"];
   const [itemIndex, setItemIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
@@ -44,10 +44,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Jayant Potdar</span>
+            Hola, soy <span className="text-[#915EFF]">Juan Garzón</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm{" "}
+            Soy{" "}
             <span
               className="typed"
               aria-hidden="true"
@@ -70,7 +70,7 @@ const Hero = () => {
               |
             </span>
             <br />
-            <b>Bring on the challenges, I'm ready to soak up knowledge!</b>
+            <b>¡Acepto nuevos desafíos, siempre listo para crear y aprender!</b>
           </p>
         </div>
       </div>

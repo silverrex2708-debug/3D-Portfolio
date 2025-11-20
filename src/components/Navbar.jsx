@@ -4,34 +4,34 @@ import { Link } from "react-router-dom";
 import { logo } from "../assets";
 
 const NAV_LINKS = [
-  { title: "home", href: "#hero", img: "/assets/nav-link-previews/home.png" },
+  { title: "inicio", href: "#hero", img: "/assets/nav-link-previews/home.png" },
   {
-    title: "about",
+    title: "sobre mí",
     href: "#about",
     img: "/assets/nav-link-previews/about.png",
   },
   {
-    title: "achievements",
+    title: "logros",
     href: "#achievements",
     img: "/assets/nav-link-previews/achievements.png",
   },
   {
-    title: "skills",
+    title: "habilidades",
     href: "#skills",
     img: "/assets/nav-link-previews/skills.png",
   },
   {
-    title: "project",
+    title: "proyectos",
     href: "#projects",
     img: "/assets/nav-link-previews/projects.png",
   },
   {
-    title: "testimonials",
+    title: "testimonios",
     href: "#testimonials",
     img: "/assets/nav-link-previews/testimonials.png",
   },
   {
-    title: "contact",
+    title: "contacto",
     href: "#contact",
     img: "/assets/nav-link-previews/contact.png",
   },
@@ -144,7 +144,7 @@ const Navbar = () => {
                 left: 0,
               }}
             >
-              Menu
+              Menú
             </motion.p>
             <motion.p
               variants={opacity}
@@ -156,7 +156,7 @@ const Navbar = () => {
                 left: 0,
               }}
             >
-              Close
+              Cerrar
             </motion.p>
           </div>
           <div className="relative w-[22.5px] h-[16px] flex flex-col justify-center items-center mx-2">

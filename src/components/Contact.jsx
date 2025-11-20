@@ -41,7 +41,7 @@ const Contact = () => {
       soundEffects.playNotification();
       setToast({
         open: true,
-        message: "Please fill in all fields before submitting.",
+        message: "Por favor, completa todos los campos antes de enviar.",
         type: "error",
       });
       return;
@@ -59,7 +59,7 @@ const Contact = () => {
       setToast({
         open: true,
         message:
-          "EmailJS configuration is missing. Please check your environment variables.",
+          "Falta la configuración de EmailJS. Por favor, revisa tus variables de entorno.",
         type: "error",
       });
       return;
@@ -71,7 +71,7 @@ const Contact = () => {
         templateId,
         {
           user_name: form.name,
-          my_name: "Jayant Potdar",
+          my_name: "Juan Garzón",
           user_email: form.email,
           my_email: "jayantpotdar2006@gmail.com",
           user_message: form.message,
@@ -84,7 +84,7 @@ const Contact = () => {
           soundEffects.playNotification();
           setToast({
             open: true,
-            message: "Thank you. I will get back to you as soon as possible.",
+            message: "Gracias. Te responderé lo antes posible.",
             type: "success",
           });
           setForm({
@@ -99,7 +99,7 @@ const Contact = () => {
           soundEffects.playNotification();
           setToast({
             open: true,
-            message: "Ahh, something went wrong. Please try again.",
+            message: "Vaya, algo salió mal. Por favor, inténtalo de nuevo.",
             type: "error",
           });
         }
@@ -117,7 +117,7 @@ const Contact = () => {
       )}
       <div className="w-full min-h-screen">
         <h2 className="text-white text-center font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-4">
-          Let's Work Together
+          Trabajemos Juntos
         </h2>
         <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-6 lg:gap-10 overflow-hidden text-white px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -125,12 +125,12 @@ const Contact = () => {
             className="flex-[0.75] w-full xl:w-[40rem] bg-[#111522] p-4 sm:p-6 lg:p-8 rounded-2xl"
           >
             <p className={`text-[#8ec5ff] ${styles.sectionSubText}`}>
-              Get in touch
+              Ponte en contacto
             </p>
             <h3
               className={`${styles.sectionHeadText} text-[28px] sm:text-[32px] lg:text-[36px]`}
             >
-              Contact.
+              Contacto.
             </h3>
 
             <form
@@ -141,40 +141,40 @@ const Contact = () => {
             >
               <label className="flex flex-col">
                 <span className="font-medium text-[#8ec5ff] mb-2 sm:mb-4 text-sm sm:text-base">
-                  Full name
+                  Nombre completo
                 </span>
                 <input
                   type="text"
                   name="name"
                   value={form.name}
                   onChange={handleChange}
-                  placeholder="Your Name"
+                  placeholder="Tu Nombre"
                   className="bg-[#07080d] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#fafafa8a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full"
                 />
               </label>
               <label className="flex flex-col">
                 <span className="font-medium text-[#8ec5ff] mb-2 sm:mb-4 text-sm sm:text-base">
-                  Email Address
+                  Correo Electrónico
                 </span>
                 <input
                   type="email"
                   name="email"
                   value={form.email}
                   onChange={handleChange}
-                  placeholder="you@example.com"
+                  placeholder="tu@ejemplo.com"
                   className="bg-[#07080d] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#fafafa8a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full"
                 />
               </label>
               <label className="flex flex-col">
                 <span className="font-medium text-[#8ec5ff] mb-2 sm:mb-4 text-sm sm:text-base">
-                  Your Message
+                  Tu Mensaje
                 </span>
                 <textarea
                   rows={5}
                   name="message"
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="Tell me about your project,"
+                  placeholder="Cuéntame sobre tu proyecto,"
                   className="bg-[#07080d] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#fafafa8a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full resize-none"
                 />
               </label>
@@ -183,7 +183,7 @@ const Contact = () => {
                 type="submit"
                 className="bg-[#07080d] py-3 px-6 sm:px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-sm sm:text-base hover:bg-[#0a0b12] transition-colors duration-200"
               >
-                {loading ? "Sending..." : "Send"}
+                {loading ? "Enviando..." : "Enviar"}
               </button>
             </form>
           </motion.div>

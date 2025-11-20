@@ -61,7 +61,7 @@ const AchievementCard = ({ Achievement }) => {
                   rel="noopener noreferrer"
                   className="text-blue-400 underline hover:text-blue-300 transition-colors duration-200"
                 >
-                  View Credential
+                  Ver Credencial
                 </a>
               </div>
             )}
@@ -77,10 +77,10 @@ const Achievement = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have Achieved so far
+          Lo que he logrado hasta ahora
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Achievements.
+          Logros.
         </h2>
       </motion.div>
 

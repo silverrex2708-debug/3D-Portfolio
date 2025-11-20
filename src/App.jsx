@@ -3,8 +3,8 @@ import { BrowserRouter } from "react-router-dom";
 import {
   About,
   Achievement,
+  Animations,
   Contact,
-  Feedbacks,
   Hero,
   Navbar,
   Preloader,
@@ -34,7 +34,7 @@ const App = () => {
           <Achievement />
           <SkillKeyboard />
           <Works />
-          <Feedbacks />
+          <Animations />
           <div className="relative z-0">
             <Contact />
           </div>
