@@ -11,8 +11,9 @@ import { achievements } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
+import sergioLogo from "../assets/Sergio Logo.png";
 
-const AchievementCard = ({ Achievement }) => {
+const AchievementCard = ({ achievement }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -20,54 +21,30 @@ const AchievementCard = ({ Achievement }) => {
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={Achievement.date}
-      iconStyle={{ background: Achievement.iconBg }}
+      date={achievement.year}
+      iconStyle={{
+        background: "#050816",
+        border: "2px solid #fff",
+      }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          <img
-            src={Achievement.icon}
-            alt={Achievement.company_name}
-            className="object-contain rounded-full"
+          <img 
+            src={sergioLogo} 
+            alt="Universidad Sergio Arboleda Logo" 
+            className="w-[80%] h-[80%] object-contain"
           />
         </div>
       }
     >
       <div>
-        <h3 className="text-[#8eadff] text-[24px] font-bold">
-          {Array.isArray(Achievement.title)
-            ? Achievement.title.map((t, i) => <div key={i}>{t}</div>)
-            : Achievement.title}
-        </h3>
-        {/* <p
-          className="text-white text-[16px] font-semibold"
+        <h3 className="text-[#8eadff] text-[24px] font-bold">{achievement.title}</h3>
+        <p
+          className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {Achievement.company_name}
-        </p> */}
+          {achievement.place}
+        </p>
       </div>
-
-      <ul className="mt-5 list-disc ml-5 space-y-2">
-        {Achievement.points.map((point, index) => (
-          <li
-            key={`Achievement-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
-          >
-            {point}
-            {Achievement.credential && Achievement.credential[index] && (
-              <div className="my-2">
-                <a
-                  href={Achievement.credential[index]}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 underline hover:text-blue-300 transition-colors duration-200"
-                >
-                  Ver Credencial
-                </a>
-              </div>
-            )}
-          </li>
-        ))}
-      </ul>
     </VerticalTimelineElement>
   );
 };
@@ -88,8 +65,8 @@ const Achievement = () => {
         <VerticalTimeline>
           {achievements.map((achievement, index) => (
             <AchievementCard
-              key={`Achievement-${index}`}
-              Achievement={achievement}
+              key={`achievement-${index}`}
+              achievement={achievement}
             />
           ))}
         </VerticalTimeline>
@@ -100,4 +77,4 @@ const Achievement = () => {
   );
 };
 
-export default SectionWrapper(Achievement, "achievements");
+export default SectionWrapper(Achievement, "achievement");

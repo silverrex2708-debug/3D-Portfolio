@@ -1,9 +1,8 @@
-
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  animation2d,
+  characterDesign,
+  illustration,
+  storyboard,
   coursera,
   fcc,
   hr,
@@ -53,31 +52,57 @@ export const navLinks = [
 const services = [
   {
     title: "Ilustrador",
-    icon: web,
+    icon: illustration,
   },
   {
     title: "Animador 2D",
-    icon: mobile,
+    icon: animation2d,
   },
   {
     title: "Diseñador de Personajes",
-    icon: backend,
+    icon: characterDesign,
   },
   {
     title: "Artista de Storyboard",
-    icon: creator,
+    icon: storyboard,
   },
 ];
 
 const achievements = [
   {
-    title: ["Concurso de Animación"],
-    company_name: "Animake",
-    icon: fcc,
-    iconBg: "#383E56",
-    date: "Mayo 2023",
-    points: ["Ganador del primer lugar en la categoría de cortometraje de animación."],
-    credential: ["#"],
+    year: "2022",
+    title: "Animación: Rotoscopia Baile",
+    place: "Universidad Sergio Arboleda",
+  },
+  {
+    year: "2022",
+    title: "Book de Diseño: Tinta China y Ilustraciones",
+    place: "Universidad Sergio Arboleda",
+  },
+  {
+    year: "2023",
+    title: "Proyecto SERTEMPLE",
+    place: "Universidad Sergio Arboleda",
+  },
+  {
+    year: "2024",
+    title: "Videojuego: Copa Yox Alpina",
+    place: "Universidad Sergio Arboleda",
+  },
+  {
+    year: "2024",
+    title: "Animación SOFA: Año del dragon",
+    place: "Universidad Sergio Arboleda",
+  },
+  {
+    year: "2025",
+    title: "Animación Proyecto USAPI",
+    place: "Universidad Sergio Arboleda",
+  },
+  {
+    year: "2025",
+    title: "Animación SOFA: La Comunidad del Dragón",
+    place: "Universidad Sergio Arboleda",
   },
 ];
 

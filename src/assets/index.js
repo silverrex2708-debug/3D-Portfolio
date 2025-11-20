@@ -1,8 +1,8 @@
 import logo from "./Logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import animation2d from "./2DAnimation_Icon.png";
+import characterDesign from "./CharacterDesign_Icon.png";
+import illustration from "./Illustration_Icon.png";
+import storyboard from "./Storyboard_Icon.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -25,10 +25,10 @@ export {
   ponggame,
   portfolio,
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  animation2d,
+  characterDesign,
+  illustration,
+  storyboard,
   github,
   menu,
   close,
