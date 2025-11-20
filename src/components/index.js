@@ -12,6 +12,7 @@ import Hero from "./Hero";
 import CanvasLoader from "./Loader";
 import Navbar from "./Navbar";
 import Preloader from "./preloader";
+import Skills from "./Skills";
 import Works from "./Works";
 
 export {
@@ -26,6 +27,7 @@ export {
   Hero,
   Navbar,
   Preloader,
+  Skills,
   StarsCanvas,
   Works,
 };

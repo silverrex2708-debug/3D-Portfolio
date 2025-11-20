@@ -1,249 +1,120 @@
+import photoshop from "../assets/Photoshop Logo.png";
+import illustrator from "../assets/Illustrator Logo.png";
+import figma from "../assets/tech/figma.svg";
+import blender from "../assets/tech/blender.svg";
+import clipstudiopaint from "../assets/Clip Studios Logo.png";
+import canva from "../assets/tech/canva.svg";
+import word from "../assets/Word Logo.png";
+import excel from "../assets/Excel Logo.png";
+import powerpoint from "../assets/Power Point Logo.png";
+import premierepro from "../assets/Premiere Pro Logo.png";
+import audition from "../assets/Audition Logo.png";
+
 // Skill names enum
 export const SkillNames = {
-  JS: "js",
-  TS: "ts",
-  HTML: "html",
-  CSS: "css",
-  REACT: "react",
-  VUE: "vue",
-  NEXTJS: "nextjs",
-  TAILWIND: "tailwind",
-  NODEJS: "nodejs",
-  EXPRESS: "express",
-  POSTGRES: "postgres",
-  MONGODB: "mongodb",
-  GIT: "git",
-  GITHUB: "github",
-  PRETTIER: "prettier",
-  NPM: "npm",
-  FIREBASE: "firebase",
-  WORDPRESS: "wordpress",
-  LINUX: "linux",
-  DOCKER: "docker",
-  NGINX: "nginx",
-  AWS: "aws",
-  VIM: "vim",
-  VERCEL: "vercel",
+  PHOTOSHOP: "photoshop",
+  ILLUSTRATOR: "illustrator",
+  FIGMA: "figma",
+  BLENDER: "blender",
+  CLIP_STUDIO_PAINT: "clipstudiopaint",
+  CANVA: "canva",
+  WORD: "word",
+  EXCEL: "excel",
+  POWERPOINT: "powerpoint",
+  PREMIERE_PRO: "premierepro",
+  AUDITION: "audition",
 };
 
 // Skill type (for reference)
 // id: number, name: string, label: string, shortDescription: string, color: string, icon: string
 
 export const SKILLS = {
-  js: {
+  [SkillNames.PHOTOSHOP]: {
     id: 1,
-    name: "js",
-    label: "JavaScript",
-    shortDescription:
-      "A scripting language used to make web pages interactive and dynamic.",
-    color: "#f0db4f",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    name: SkillNames.PHOTOSHOP,
+    label: "Photoshop",
+    shortDescription: "Software de edición de imágenes y diseño gráfico.",
+    color: "#31A8FF",
+    icon: photoshop,
   },
-  ts: {
+  [SkillNames.ILLUSTRATOR]: {
     id: 2,
-    name: "ts",
-    label: "TypeScript",
-    shortDescription:
-      "A superset of JavaScript that adds static typing and better tooling support.",
-    color: "#007acc",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    name: SkillNames.ILLUSTRATOR,
+    label: "Illustrator",
+    shortDescription: "Software de diseño de gráficos vectoriales.",
+    color: "#FF9A00",
+    icon: illustrator,
   },
-  html: {
+  [SkillNames.FIGMA]: {
     id: 3,
-    name: "html",
-    label: "HTML",
-    shortDescription:
-      "The standard markup language used to structure content on the web.",
-    color: "#e34c26",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    name: SkillNames.FIGMA,
+    label: "Figma",
+    shortDescription: "Herramienta de diseño de interfaces y prototipado.",
+    color: "#F24E1E",
+    icon: figma,
   },
-  css: {
+  [SkillNames.BLENDER]: {
     id: 4,
-    name: "css",
-    label: "CSS",
-    shortDescription:
-      "A style sheet language used to describe the visual presentation of HTML elements.",
-    color: "#563d7c",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    name: SkillNames.BLENDER,
+    label: "Blender",
+    shortDescription: "Software de modelado, animación y renderizado 3D.",
+    color: "#E87D0D",
+    icon: blender,
   },
-  react: {
+  [SkillNames.CLIP_STUDIO_PAINT]: {
     id: 5,
-    name: "react",
-    label: "React",
-    shortDescription:
-      "A JavaScript library for building fast and reusable user interfaces using components.",
-    color: "#61dafb",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    name: SkillNames.CLIP_STUDIO_PAINT,
+    label: "Clip Studio Paint",
+    shortDescription: "Software para ilustración, cómic y animación.",
+    color: "#1898E6",
+    icon: clipstudiopaint,
   },
-  vue: {
+  [SkillNames.CANVA]: {
     id: 6,
-    name: "vue",
-    label: "Vue",
-    shortDescription:
-      "A progressive JavaScript framework for building user interfaces with a simple and flexible API.",
-    color: "#41b883",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    name: SkillNames.CANVA,
+    label: "Canva",
+    shortDescription: "Plataforma de diseño gráfico simplificado.",
+    color: "#00C4CC",
+    icon: canva,
   },
-  nextjs: {
+  [SkillNames.WORD]: {
     id: 7,
-    name: "nextjs",
-    label: "Next.js",
-    shortDescription:
-      "A React-based framework for building full-stack web apps with server-side rendering and routing.",
-    color: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    name: SkillNames.WORD,
+    label: "Word",
+    shortDescription: "Procesador de textos de Microsoft Office.",
+    color: "#2B579A",
+    icon: word,
   },
-  tailwind: {
+  [SkillNames.EXCEL]: {
     id: 8,
-    name: "tailwind",
-    label: "Tailwind",
-    shortDescription:
-      "A utility-first CSS framework for rapidly building custom and responsive UI designs.",
-    color: "#38bdf8",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    name: SkillNames.EXCEL,
+    label: "Excel",
+    shortDescription: "Hoja de cálculo de Microsoft Office.",
+    color: "#217346",
+    icon: excel,
   },
-  nodejs: {
+  [SkillNames.POWERPOINT]: {
     id: 9,
-    name: "nodejs",
-    label: "Node.js",
-    shortDescription:
-      "A runtime environment that lets you run JavaScript on the server side.",
-    color: "#6cc24a",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    name: SkillNames.POWERPOINT,
+    label: "PowerPoint",
+    shortDescription: "Software de presentaciones de Microsoft Office.",
+    color: "#B7472A",
+    icon: powerpoint,
   },
-  express: {
+  [SkillNames.PREMIERE_PRO]: {
     id: 10,
-    name: "express",
-    label: "Express",
-    shortDescription:
-      "A minimal and flexible Node.js web application framework for creating APIs and backend services.",
-    color: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    name: SkillNames.PREMIERE_PRO,
+    label: "Premiere Pro",
+    shortDescription: "Software de edición de video profesional.",
+    color: "#9999FF",
+    icon: premierepro,
   },
-  postgres: {
+  [SkillNames.AUDITION]: {
     id: 11,
-    name: "postgres",
-    label: "PostgreSQL",
-    shortDescription:
-      "A powerful open-source relational database system known for reliability and feature-richness.",
-    color: "#336791",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-  },
-  mongodb: {
-    id: 12,
-    name: "mongodb",
-    label: "MongoDB",
-    shortDescription:
-      "A NoSQL database that stores data in flexible, JSON-like documents.",
-    color: "#336791",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-  },
-  git: {
-    id: 13,
-    name: "git",
-    label: "Git",
-    shortDescription:
-      "A distributed version control system to track changes in source code during development.",
-    color: "#f1502f",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-  },
-  github: {
-    id: 14,
-    name: "github",
-    label: "GitHub",
-    shortDescription:
-      "A platform to host, manage, and collaborate on code using Git.",
-    color: "#000000",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-  },
-  prettier: {
-    id: 15,
-    name: "prettier",
-    label: "Prettier",
-    shortDescription:
-      "A code formatter that automatically styles code to follow consistent rules.",
-    color: "#f7b93a",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prettier/prettier-original.svg",
-  },
-  npm: {
-    id: 16,
-    name: "npm",
-    label: "NPM",
-    shortDescription:
-      "The package manager for JavaScript, used to install libraries and manage project dependencies.",
-    color: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-  },
-  firebase: {
-    id: 17,
-    name: "firebase",
-    label: "Firebase",
-    shortDescription:
-      "A platform by Google offering backend services like authentication, database, and hosting.",
-    color: "#ffca28",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-  },
-  wordpress: {
-    id: 18,
-    name: "wordpress",
-    label: "WordPress",
-    shortDescription:
-      "A content management system (CMS) used to build and manage websites easily.",
-    color: "#007acc",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
-  },
-  linux: {
-    id: 19,
-    name: "linux",
-    label: "Linux",
-    shortDescription:
-      "An open-source operating system widely used in servers, development, and cloud environments.",
-    color: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
-  },
-  docker: {
-    id: 20,
-    name: "docker",
-    label: "Docker",
-    shortDescription:
-      "A platform for developing, shipping, and running applications in isolated containers.",
-    color: "#2496ed",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-  },
-  nginx: {
-    id: 21,
-    name: "nginx",
-    label: "NginX",
-    shortDescription:
-      "A high-performance web server and reverse proxy used for serving static content and load balancing.",
-    color: "#008000",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
-  },
-  aws: {
-    id: 22,
-    name: "aws",
-    label: "AWS",
-    shortDescription:
-      "Amazon Web Services — a cloud platform offering scalable computing, storage, and services.",
-    color: "#ff9900",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
-  },
-  vim: {
-    id: 23,
-    name: "vim",
-    label: "Vim",
-    shortDescription:
-      "A highly configurable, efficient text editor popular among developers and system administrators.",
-    color: "#e34c26",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg",
-  },
-  vercel: {
-    id: 24,
-    name: "vercel",
-    label: "Vercel",
-    shortDescription:
-      "A cloud platform for deploying frontend applications, especially optimized for Next.js.",
-    color: "#6cc24a",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+    name: SkillNames.AUDITION,
+    label: "Audition",
+    shortDescription: "Software de edición y postproducción de audio.",
+    color: "#9999FF",
+    icon: audition,
   },
 };

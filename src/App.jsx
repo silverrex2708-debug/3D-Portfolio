@@ -10,10 +10,10 @@ import {
   Preloader,
   StarsCanvas,
   Works,
+  Skills
 } from "./components";
 import EasterEggs from "./components/EasterEggs";
 import ElasticCursor from "./components/ElasticCursor";
-import SkillKeyboard from "./components/SkillKeyboard";
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
           <StarsCanvas />
           <About />
           <Achievement />
-          <SkillKeyboard />
+          <Skills />
           <Works />
           <Animations />
           <div className="relative z-0">
