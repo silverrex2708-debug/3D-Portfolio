@@ -3,6 +3,7 @@ import illustrator from "../assets/Illustrator Logo.png";
 import figma from "../assets/tech/figma.svg";
 import blender from "../assets/tech/blender.svg";
 import clipstudiopaint from "../assets/Clip Studios Logo.png";
+import aftereffects from "../assets/After Logo.png";
 import canva from "../assets/tech/canva.svg";
 import word from "../assets/Word Logo.png";
 import excel from "../assets/Excel Logo.png";
@@ -17,6 +18,7 @@ export const SkillNames = {
   FIGMA: "figma",
   BLENDER: "blender",
   CLIP_STUDIO_PAINT: "clipstudiopaint",
+  AFTER_EFFECTS: "aftereffects",
   CANVA: "canva",
   WORD: "word",
   EXCEL: "excel",
@@ -69,8 +71,16 @@ export const SKILLS = {
     color: "#1898E6",
     icon: clipstudiopaint,
   },
-  [SkillNames.CANVA]: {
+  [SkillNames.AFTER_EFFECTS]: {
     id: 6,
+    name: SkillNames.AFTER_EFFECTS,
+    label: "After Effects",
+    shortDescription: "Software de motion graphics y efectos visuales.",
+    color: "#9999FF",
+    icon: aftereffects,
+  },
+  [SkillNames.CANVA]: {
+    id: 7,
     name: SkillNames.CANVA,
     label: "Canva",
     shortDescription: "Plataforma de diseño gráfico simplificado.",
@@ -78,7 +88,7 @@ export const SKILLS = {
     icon: canva,
   },
   [SkillNames.WORD]: {
-    id: 7,
+    id: 8,
     name: SkillNames.WORD,
     label: "Word",
     shortDescription: "Procesador de textos de Microsoft Office.",
@@ -86,7 +96,7 @@ export const SKILLS = {
     icon: word,
   },
   [SkillNames.EXCEL]: {
-    id: 8,
+    id: 9,
     name: SkillNames.EXCEL,
     label: "Excel",
     shortDescription: "Hoja de cálculo de Microsoft Office.",
@@ -94,7 +104,7 @@ export const SKILLS = {
     icon: excel,
   },
   [SkillNames.POWERPOINT]: {
-    id: 9,
+    id: 10,
     name: SkillNames.POWERPOINT,
     label: "PowerPoint",
     shortDescription: "Software de presentaciones de Microsoft Office.",
@@ -102,7 +112,7 @@ export const SKILLS = {
     icon: powerpoint,
   },
   [SkillNames.PREMIERE_PRO]: {
-    id: 10,
+    id: 11,
     name: SkillNames.PREMIERE_PRO,
     label: "Premiere Pro",
     shortDescription: "Software de edición de video profesional.",
@@ -110,7 +120,7 @@ export const SKILLS = {
     icon: premierepro,
   },
   [SkillNames.AUDITION]: {
-    id: 11,
+    id: 12,
     name: SkillNames.AUDITION,
     label: "Audition",
     shortDescription: "Software de edición y postproducción de audio.",

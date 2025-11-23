@@ -4,36 +4,30 @@ import { Link } from "react-router-dom";
 import { logo } from "../assets";
 
 const NAV_LINKS = [
-  { title: "inicio", href: "#hero", img: "/assets/nav-link-previews/home.png" },
+  { title: "inicio", href: "#hero" },
   {
     title: "sobre mí",
     href: "#about",
-    img: "/assets/nav-link-previews/about.png",
   },
   {
     title: "logros",
     href: "#achievements",
-    img: "/assets/nav-link-previews/achievements.png",
   },
   {
-    title: "habilidades",
+    title: "tecnologías",
     href: "#skills",
-    img: "/assets/nav-link-previews/skills.png",
   },
   {
     title: "ilustraciones",
     href: "#illustrations",
-    img: "/assets/nav-link-previews/projects.png",
   },
   {
     title: "animaciones",
     href: "#animations",
-    img: "/assets/nav-link-previews/animations.png",
   },
   {
     title: "contacto",
     href: "#contact",
-    img: "/assets/nav-link-previews/contact.png",
   },
 ];
 
@@ -204,10 +198,10 @@ const Navbar = () => {
         <AnimatePresence>
           {isActive && (
             <motion.div
-              className="flex flex-row justify-between items-center w-full max-w-8xl mx-auto relative min-h-[60vh]"
+              className="flex flex-row justify-center items-center w-full max-w-8xl mx-auto relative min-h-[60vh]"
               style={{ minHeight: 600 }}
             >
-              <div className="flex flex-wrap items-start gap-1 w-2/3 pl-8">
+              <div className="flex flex-wrap items-center justify-center gap-1 w-full px-8">
                 {NAV_LINKS.map((link, idx) => (
                   <a
                     key={link.title}
@@ -261,28 +255,6 @@ const Navbar = () => {
                   </a>
                 ))}
               </div>
-              {isActive && (
-                <motion.div
-                  variants={opacity}
-                  initial="initial"
-                  animate={hovering ? "open" : "closed"}
-                  className="hidden md:flex items-center justify-start w-1/3 h-full"
-                  style={{ minHeight: 200 }}
-                >
-                  <img
-                    src={NAV_LINKS[selectedIdx].img}
-                    alt={NAV_LINKS[selectedIdx].title}
-                    className="object-cover rounded-lg shadow-lg border border-white/20"
-                    style={{
-                      width: "480px",
-                      height: "270px",
-                      aspectRatio: "16/9",
-                      maxWidth: "90vw",
-                      maxHeight: "60vh",
-                    }}
-                  />
-                </motion.div>
-              )}
             </motion.div>
           )}
         </AnimatePresence>

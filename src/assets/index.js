@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import aftereffects from "./After Logo.png";
+
 import coursera from "./achievement/Coursera.png";
 import hr from "./achievement/HR.jpg";
 import cp from "./achievement/Certiport.jpg";
@@ -41,4 +43,5 @@ export {
   concepts,
   designs,
   code,
+  aftereffects,
 };
