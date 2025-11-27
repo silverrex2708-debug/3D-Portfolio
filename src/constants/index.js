@@ -201,14 +201,14 @@ const animations = [
     name: "Armilla Ciudad Invisible",
     description: "Una animación increíble.",
     tags: [{ name: "2D Animation", color: "green-text-gradient" }],
-    video: "/assets/Animations/Armilla_Ciudad_Invisible.MP4",
+    video: "/assets/Animations/Armilla_Ciudad_Invisible.mp4",
     source_code_link: "https://www.behance.net/gallery/225209379/Ciudad-Invisible-Armilla",
   },
   {
     name: "Año del Dragon Sofa",
     description: "Una animación increíble.",
     tags: [{ name: "2D Animation", color: "pink-text-gradient" }],
-    video: "/assets/Animations/Ano_del_Dragon_Sofa.MP4",
+    video: "/assets/Animations/Ano_del_Dragon_Sofa.mp4",
     source_code_link: "https://www.behance.net/gallery/225208995/Ano-nuevo-del-Dragon-de-Fuego",
   },
   {
