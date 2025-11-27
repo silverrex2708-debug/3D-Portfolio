@@ -11,23 +11,23 @@ import {
   concepts,
   designs,
   code,
-} from "../assets";
+} from "@/assets";
 
-import entornosUniversitarios from "../assets/Illustrations/Colores With Shader.jpg";
-import furinaFanArt from "../assets/Illustrations/Furina.jpg";
-import anomaliaMesoamericana from "../assets/Illustrations/Anomalia.jpeg";
-import teselacionMesoamericana from "../assets/Illustrations/Teselación.jpeg";
-import escorpionGeometrizado from "../assets/Illustrations/Escorpion.jpg";
-import expulsionAves from "../assets/Illustrations/Expulsar a las Aves.jpeg";
-import shinobu from "../assets/Illustrations/Shinobu Pintura.jpg";
-import rumboDesconocido from "../assets/Illustrations/Rumbo Hacia lo Desconocido.jpeg";
+import entornosUniversitarios from "@/assets/Illustrations/Colores With Shader.jpg";
+import furinaFanArt from "@/assets/Illustrations/Furina.jpg";
+import anomaliaMesoamericana from "@/assets/Illustrations/Anomalia.jpeg";
+import teselacionMesoamericana from "@/assets/Illustrations/Teselación.jpeg";
+import escorpionGeometrizado from "@/assets/Illustrations/Escorpion.jpg";
+import expulsionAves from "@/assets/Illustrations/Expulsar a las Aves.jpeg";
+import shinobu from "@/assets/Illustrations/Shinobu Pintura.jpg";
+import rumboDesconocido from "@/assets/Illustrations/Rumbo Hacia lo Desconocido.jpeg";
 
-import animacionFinal from "../assets/Animations/Animación Final Tercer Corte.mp4";
-import armilla from "../assets/Animations/Armilla Ciudad Invisible.MP4";
-import dragonSofa from "../assets/Animations/Año del Dragon Sofa.MP4";
-import cortoAnimado from "../assets/Animations/Corto Animado - Un Espectaculo para entretenerse.mp4";
-import guerraCampal from "../assets/Animations/Guerra campal - Stop Motión (1).mp4";
-import rotoscopia from "../assets/Animations/Rotoscopia Baile 10S.mp4";
+import animacionFinal from "@/assets/Animations/Animación Final Tercer Corte.mp4?url";
+import armilla from "@/assets/Animations/Armilla Ciudad Invisible.MP4?url";
+import dragonSofa from "@/assets/Animations/Año del Dragon Sofa.MP4?url";
+import cortoAnimado from "@/assets/Animations/Corto Animado - Un Espectaculo para entretenerse.mp4?url";
+import guerraCampal from "@/assets/Animations/Guerra campal - Stop Motión (1).mp4?url";
+import rotoscopia from "@/assets/Animations/Rotoscopia Baile 10S.mp4?url";
 
 
 export const navLinks = [

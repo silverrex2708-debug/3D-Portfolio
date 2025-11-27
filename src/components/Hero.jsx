@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
+import { styles } from "@/styles";
 import { ComputersCanvas } from "./canvas";
 import { useState, useEffect } from "react";
-import heroBackground from "/src/assets/fondo-inicio.jpg";
+import heroBackground from "@/assets/fondo-inicio.jpg";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");

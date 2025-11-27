@@ -7,11 +7,11 @@ import {
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { achievements } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { styles } from "../styles";
-import { textVariant } from "../utils/motion";
-import sergioLogo from "/src/assets/sergio-logo.png";
+import { achievements } from "@/constants";
+import { SectionWrapper } from "@/hoc";
+import { styles } from "@/styles";
+import { textVariant } from "@/utils/motion";
+import sergioLogo from "@/assets/sergio-logo.png";
 
 const AchievementCard = ({ achievement }) => {
   return (
