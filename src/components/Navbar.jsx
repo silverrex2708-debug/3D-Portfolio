@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { logo } from "../assets";
+import { logo } from "/src/assets";
 
 const NAV_LINKS = [
   { title: "inicio", href: "#hero" },
