@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./sketchbook 3d model.glb");
+  const earth = useGLTF("/sketchbook 3d model.glb");
 
   return (
     <primitive object={earth.scene} scale={4} position-y={-1.6} rotation-y={0} />
