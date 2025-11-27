@@ -11,7 +11,7 @@ import { achievements } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
-import sergioLogo from "../assets/Sergio Logo.png";
+import sergioLogo from "../assets/sergio-logo.png";
 
 const AchievementCard = ({ achievement }) => {
   return (
