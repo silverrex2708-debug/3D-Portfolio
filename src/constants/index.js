@@ -1,35 +1,3 @@
-import {
-  animation2d,
-  characterDesign,
-  illustration,
-  storyboard,
-  coursera,
-  fcc,
-  hr,
-  cp,
-  ideas,
-  concepts,
-  designs,
-  code,
-} from "@/assets";
-
-import entornosUniversitarios from "@/assets/Illustrations/Colores With Shader.jpg";
-import furinaFanArt from "@/assets/Illustrations/Furina.jpg";
-import anomaliaMesoamericana from "@/assets/Illustrations/Anomalia.jpeg";
-import teselacionMesoamericana from "@/assets/Illustrations/Teselación.jpeg";
-import escorpionGeometrizado from "@/assets/Illustrations/Escorpion.jpg";
-import expulsionAves from "@/assets/Illustrations/Expulsar a las Aves.jpeg";
-import shinobu from "@/assets/Illustrations/Shinobu Pintura.jpg";
-import rumboDesconocido from "@/assets/Illustrations/Rumbo Hacia lo Desconocido.jpeg";
-
-import animacionFinal from "@/assets/Animations/Animación Final Tercer Corte.mp4?url";
-import armilla from "@/assets/Animations/Armilla Ciudad Invisible.MP4?url";
-import dragonSofa from "@/assets/Animations/Año del Dragon Sofa.MP4?url";
-import cortoAnimado from "@/assets/Animations/Corto Animado - Un Espectaculo para entretenerse.mp4?url";
-import guerraCampal from "@/assets/Animations/Guerra campal - Stop Motión (1).mp4?url";
-import rotoscopia from "@/assets/Animations/Rotoscopia Baile 10S.mp4?url";
-
-
 export const navLinks = [
   {
     id: "about",
@@ -52,19 +20,19 @@ export const navLinks = [
 const services = [
   {
     title: "Ilustrador",
-    icon: illustration,
+    icon: "/assets/Illustration_Icon.png",
   },
   {
     title: "Animador 2D",
-    icon: animation2d,
+    icon: "/assets/2DAnimation_Icon.png",
   },
   {
     title: "Diseñador de Personajes",
-    icon: characterDesign,
+    icon: "/assets/CharacterDesign_Icon.png",
   },
   {
     title: "Artista de Storyboard",
-    icon: storyboard,
+    icon: "/assets/Storyboard_Icon.png",
   },
 ];
 
@@ -119,7 +87,7 @@ const projects = [
       { name: "Environment", color: "violet-text-gradient" },
       { name: "Background", color: "blue-text-gradient" },
     ],
-    image: entornosUniversitarios,
+    image: "/assets/Illustrations/Colores With Shader.jpg",
     source_code_link: "https://www.behance.net/gallery/238223781/Ilustraciones-de-Entornos-Universitarios",
   },
   {
@@ -134,7 +102,7 @@ const projects = [
       { name: "GenshinImpact", color: "violet-text-gradient" },
       { name: "Anime", color: "blue-text-gradient" },
     ],
-    image: furinaFanArt,
+    image: "/assets/Illustrations/Furina.jpg",
     source_code_link: "https://www.behance.net/gallery/223323341/Furina-FanArt",
   },
   {
@@ -146,7 +114,7 @@ const projects = [
       { name: "DigitalArt", color: "green-text-gradient" },
       { name: "Adobe Illustrator", color: "pink-text-gradient" },
     ],
-    image: anomaliaMesoamericana,
+    image: "/assets/Illustrations/Anomalia.jpeg",
     source_code_link: "https://www.behance.net/gallery/223765151/Anomalia-Mesoamericana",
   },
   {
@@ -158,7 +126,7 @@ const projects = [
       { name: "DigitalArt", color: "green-text-gradient" },
       { name: "Adobe Illustrator", color: "pink-text-gradient" },
     ],
-    image: teselacionMesoamericana,
+    image: "/assets/Illustrations/Teselación.jpeg",
     source_code_link: "https://www.behance.net/gallery/223764457/Teselacion-mesoamericana",
   },
   {
@@ -174,7 +142,7 @@ const projects = [
       { name: "Animal", color: "blue-text-gradient" },
       { name: "BlackAndWhite", color: "green-text-gradient" },
     ],
-    image: escorpionGeometrizado,
+    image: "/assets/Illustrations/Escorpion.jpg",
     source_code_link: "https://www.behance.net/gallery/225106047/Escorpion-Geometrizado",
   },
   {
@@ -188,7 +156,7 @@ const projects = [
       { name: "ArtWork", color: "orange-text-gradient" },
       { name: "Painting", color: "violet-text-gradient" },
     ],
-    image: expulsionAves,
+    image: "/assets/Illustrations/Expulsar a las Aves.jpeg",
     source_code_link: "https://www.behance.net/gallery/223763059/Expulsion-de-las-aves-del-Estinfalo",
   },
   {
@@ -203,20 +171,20 @@ const projects = [
       { name: "Anime", color: "violet-text-gradient" },
       { name: "Kimetsu no Yaiba", color: "blue-text-gradient" },
     ],
-    image: shinobu,
+    image: "/assets/Illustrations/Shinobu Pintura.jpg",
     source_code_link: "https://www.behance.net/gallery/228112981/FanArt-de-Shinobu-Kocho-Kimetsu-no-Yaiba",
   },
   {
     name: "Rumbo Hacia lo Desconocido",
     description:
-      'Ilustración analogá de contraste en positivo y negativo, titulada "Rumbo Hacia lo Desconocido" donde un barco escondido en la oscuridad es alumbrado por un faro que muestra la silueta del barco. El espacio negativo (las áreas blancas) está utilizado para crear formas y detalles como las nubes, el faro, las olas y algunas áreas del barco. El espacio positivo (las áreas negras) define los elementos principales como el barco, las aves y el faro.',
+      "Ilustración analogá de contraste en positivo y negativo, titulada 'Rumbo Hacia lo Desconocido' donde un barco escondido en la oscuridad es alumbrado por un faro que muestra la silueta del barco. El espacio negativo (las áreas blancas) está utilizado para crear formas y detalles como las nubes, el faro, las olas y algunas áreas del barco. El espacio positivo (las áreas negras) define los elementos principales como el barco, las aves y el faro.",
     tags: [
       { name: "Drawing", color: "blue-text-gradient" },
       { name: "Illustration", color: "green-text-gradient" },
       { name: "Analog", color: "pink-text-gradient" },
       { name: "BlackAndWhite", color: "orange-text-gradient" },
     ],
-    image: rumboDesconocido,
+    image: "/assets/Illustrations/Rumbo Hacia lo Desconocido.jpeg",
     source_code_link: "https://www.behance.net/gallery/223747243/Rumbo-Hacia-lo-Desconocido",
   },
 ];
@@ -226,68 +194,68 @@ const animations = [
     name: "Baile entre la nieve y el hielo",
     description: "Una animación increíble.",
     tags: [{ name: "2D Animation", color: "blue-text-gradient" }],
-    video: animacionFinal,
+    video: "/assets/Animations/Animación Final Tercer Corte.mp4",
     source_code_link: "https://www.behance.net/gallery/238641501/Baile-entre-la-nieve-y-el-hielo-(Animacion)",
   },
   {
     name: "Armilla Ciudad Invisible",
     description: "Una animación increíble.",
     tags: [{ name: "2D Animation", color: "green-text-gradient" }],
-    video: armilla,
+    video: "/assets/Animations/Armilla Ciudad Invisible.MP4",
     source_code_link: "https://www.behance.net/gallery/225209379/Ciudad-Invisible-Armilla",
   },
   {
     name: "Año del Dragon Sofa",
     description: "Una animación increíble.",
     tags: [{ name: "2D Animation", color: "pink-text-gradient" }],
-    video: dragonSofa,
+    video: "/assets/Animations/Año del Dragon Sofa.MP4",
     source_code_link: "https://www.behance.net/gallery/225208995/Ano-nuevo-del-Dragon-de-Fuego",
   },
   {
     name: "Corto Animado - Un Espectaculo para entretenerse",
     description: "Una animación increíble.",
     tags: [{ name: "2D Animation", color: "orange-text-gradient" }],
-    video: cortoAnimado,
+    video: "/assets/Animations/Corto Animado - Un Espectaculo para entretenerse.mp4",
     source_code_link: "https://www.behance.net/gallery/237059885/Animacion-Un-Espectaculo-para-Entretenerse",
   },
   {
     name: "Guerra campal - Stop Motión",
     description: "Una animación increíble.",
     tags: [{ name: "Stop Motion", color: "violet-text-gradient" }],
-    video: guerraCampal,
+    video: "/assets/Animations/Guerra campal - Stop Motión (1).mp4",
     source_code_link: "https://www.behance.net/gallery/233894029/Guerra-Campal-Stop-Motion",
   },
   {
     name: "Rotoscopia Baile",
     description: "Una animación increíble.",
     tags: [{ name: "Rotoscoping", color: "blue-text-gradient" }],
-    video: rotoscopia,
+    video: "/assets/Animations/Rotoscopia Baile 10S.mp4",
     source_code_link: "https://www.behance.net/gallery/234826373/Animacion-Rotoscopia-10-Segundos",
   },
 ];
 
 
 const words = [
-  { text: "Ideas", imgPath: ideas, font: "Arial, sans-serif" },
+  { text: "Ideas", imgPath: "/assets/badge/ideas.svg", font: "Arial, sans-serif" },
   {
     text: "Conceptos",
-    imgPath: concepts,
+    imgPath: "/assets/badge/concepts.svg",
     font: "'Courier New', Courier, monospace",
   },
   {
     text: "Diseños",
-    imgPath: designs,
+    imgPath: "/assets/badge/designs.svg",
     font: "'Times New Roman', Times, serif",
   },
-  { text: "Arte", imgPath: code, font: "'Fira Mono', monospace" },
+  { text: "Arte", imgPath: "/assets/badge/code.svg", font: "'Fira Mono', monospace" },
   {
     text: "Ideas",
-    imgPath: ideas,
+    imgPath: "/assets/badge/ideas.svg",
     font: "'Comic Sans MS', cursive, sans-serif",
   },
-  { text: "Conceptos", imgPath: concepts, font: "'Roboto', sans-serif" },
-  { text: "Diseños", imgPath: designs, font: "'Georgia', serif" },
-  { text: "Arte", imgPath: code, font: "'Source Code Pro', monospace" },
+  { text: "Conceptos", imgPath: "/assets/badge/concepts.svg", font: "'Roboto', sans-serif" },
+  { text: "Diseños", imgPath: "/assets/badge/designs.svg", font: "'Georgia', serif" },
+  { text: "Arte", imgPath: "/assets/badge/code.svg", font: "'Source Code Pro', monospace" },
 ];
 
 export { achievements, projects, services, words, animations };

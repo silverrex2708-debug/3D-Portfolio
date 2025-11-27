@@ -11,7 +11,6 @@ import { achievements } from "@/constants";
 import { SectionWrapper } from "@/hoc";
 import { styles } from "@/styles";
 import { textVariant } from "@/utils/motion";
-import sergioLogo from "@/assets/sergio-logo.png";
 
 const AchievementCard = ({ achievement }) => {
   return (
@@ -29,7 +28,7 @@ const AchievementCard = ({ achievement }) => {
       icon={
         <div className="flex justify-center items-center w-full h-full">
           <img 
-            src={sergioLogo} 
+            src="/assets/sergio-logo.png" 
             alt="Universidad Sergio Arboleda Logo" 
             className="w-[80%] h-[80%] object-contain"
           />

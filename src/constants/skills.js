@@ -1,16 +1,3 @@
-import photoshop from "@/assets/Photoshop Logo.png";
-import illustrator from "@/assets/Illustrator Logo.png";
-import figma from "@/assets/tech/figma.svg";
-import blender from "@/assets/tech/blender.svg";
-import clipstudiopaint from "@/assets/Clip Studios Logo.png";
-import aftereffects from "@/assets/After Logo.png";
-import canva from "@/assets/tech/canva.svg";
-import word from "@/assets/Word Logo.png";
-import excel from "@/assets/Excel Logo.png";
-import powerpoint from "@/assets/Power Point Logo.png";
-import premierepro from "@/assets/Premiere Pro Logo.png";
-import audition from "@/assets/Audition Logo.png";
-
 // Skill names enum
 export const SkillNames = {
   PHOTOSHOP: "photoshop",
@@ -37,7 +24,7 @@ export const SKILLS = {
     label: "Photoshop",
     shortDescription: "Software de edición de imágenes y diseño gráfico.",
     color: "#31A8FF",
-    icon: photoshop,
+    icon: "/assets/Photoshop Logo.png",
   },
   [SkillNames.ILLUSTRATOR]: {
     id: 2,
@@ -45,7 +32,7 @@ export const SKILLS = {
     label: "Illustrator",
     shortDescription: "Software de diseño de gráficos vectoriales.",
     color: "#FF9A00",
-    icon: illustrator,
+    icon: "/assets/Illustrator Logo.png",
   },
   [SkillNames.FIGMA]: {
     id: 3,
@@ -53,7 +40,7 @@ export const SKILLS = {
     label: "Figma",
     shortDescription: "Herramienta de diseño de interfaces y prototipado.",
     color: "#F24E1E",
-    icon: figma,
+    icon: "/assets/tech/figma.svg",
   },
   [SkillNames.BLENDER]: {
     id: 4,
@@ -61,7 +48,7 @@ export const SKILLS = {
     label: "Blender",
     shortDescription: "Software de modelado, animación y renderizado 3D.",
     color: "#E87D0D",
-    icon: blender,
+    icon: "/assets/tech/blender.svg",
   },
   [SkillNames.CLIP_STUDIO_PAINT]: {
     id: 5,
@@ -69,7 +56,7 @@ export const SKILLS = {
     label: "Clip Studio Paint",
     shortDescription: "Software para ilustración, cómic y animación.",
     color: "#1898E6",
-    icon: clipstudiopaint,
+    icon: "/assets/Clip Studios Logo.png",
   },
   [SkillNames.AFTER_EFFECTS]: {
     id: 6,
@@ -77,7 +64,7 @@ export const SKILLS = {
     label: "After Effects",
     shortDescription: "Software de motion graphics y efectos visuales.",
     color: "#9999FF",
-    icon: aftereffects,
+    icon: "/assets/After Logo.png",
   },
   [SkillNames.CANVA]: {
     id: 7,
@@ -85,7 +72,7 @@ export const SKILLS = {
     label: "Canva",
     shortDescription: "Plataforma de diseño gráfico simplificado.",
     color: "#00C4CC",
-    icon: canva,
+    icon: "/assets/tech/canva.svg",
   },
   [SkillNames.WORD]: {
     id: 8,
@@ -93,7 +80,7 @@ export const SKILLS = {
     label: "Word",
     shortDescription: "Procesador de textos de Microsoft Office.",
     color: "#2B579A",
-    icon: word,
+    icon: "/assets/Word Logo.png",
   },
   [SkillNames.EXCEL]: {
     id: 9,
@@ -101,7 +88,7 @@ export const SKILLS = {
     label: "Excel",
     shortDescription: "Hoja de cálculo de Microsoft Office.",
     color: "#217346",
-    icon: excel,
+    icon: "/assets/Excel Logo.png",
   },
   [SkillNames.POWERPOINT]: {
     id: 10,
@@ -109,7 +96,7 @@ export const SKILLS = {
     label: "PowerPoint",
     shortDescription: "Software de presentaciones de Microsoft Office.",
     color: "#B7472A",
-    icon: powerpoint,
+    icon: "/assets/Power Point Logo.png",
   },
   [SkillNames.PREMIERE_PRO]: {
     id: 11,
@@ -117,7 +104,7 @@ export const SKILLS = {
     label: "Premiere Pro",
     shortDescription: "Software de edición de video profesional.",
     color: "#9999FF",
-    icon: premierepro,
+    icon: "/assets/Premiere Pro Logo.png",
   },
   [SkillNames.AUDITION]: {
     id: 12,
@@ -125,6 +112,6 @@ export const SKILLS = {
     label: "Audition",
     shortDescription: "Software de edición y postproducción de audio.",
     color: "#9999FF",
-    icon: audition,
+    icon: "/assets/Audition Logo.png",
   },
 };

@@ -1,7 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { logo } from "@/assets";
 
 const NAV_LINKS = [
   { title: "inicio", href: "#hero" },
@@ -116,7 +115,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between max-w-8xl my-2 mx-4 relative">
         <a href="#hero" className="flex mx-6 items-center justify-center">
           <span className="text-md">
-            <img src={logo} alt="logo" className="h-16 object-contain" />
+            <img src="/assets/Logo.png" alt="logo" className="h-16 object-contain" />
           </span>
         </a>
         <button
