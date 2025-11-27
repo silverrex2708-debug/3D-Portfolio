@@ -1,27 +1,27 @@
-import logo from "./Logo.png";
-import animation2d from "./2DAnimation_Icon.png";
-import characterDesign from "./CharacterDesign_Icon.png";
-import illustration from "./Illustration_Icon.png";
-import storyboard from "./Storyboard_Icon.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import logo from "@/assets/Logo.png";
+import animation2d from "@/assets/2DAnimation_Icon.png";
+import characterDesign from "@/assets/CharacterDesign_Icon.png";
+import illustration from "@/assets/Illustration_Icon.png";
+import storyboard from "@/assets/Storyboard_Icon.png";
+import github from "@/assets/github.png";
+import menu from "@/assets/menu.svg";
+import close from "@/assets/close.svg";
 
-import aftereffects from "./After Logo.png";
+import aftereffects from "@/assets/After Logo.png";
 
-import coursera from "./achievement/Coursera.png";
-import hr from "./achievement/HR.jpg";
-import cp from "./achievement/Certiport.jpg";
-import fcc from "./achievement/free_code_camp.jpg";
+import coursera from "@/assets/achievement/Coursera.png";
+import hr from "@/assets/achievement/HR.jpg";
+import cp from "@/assets/achievement/Certiport.jpg";
+import fcc from "@/assets/achievement/free_code_camp.jpg";
 
-import novalearn from "./project/novalearn.png";
-import ponggame from "./project/ponggame.png";
-import portfolio from "./project/portfolio.png";
+import novalearn from "@/assets/project/novalearn.png";
+import ponggame from "@/assets/project/ponggame.png";
+import portfolio from "@/assets/project/portfolio.png";
 
-import code from "./badge/code.svg";
-import concepts from "./badge/concepts.svg";
-import designs from "./badge/designs.svg";
-import ideas from "./badge/ideas.svg";
+import code from "@/assets/badge/code.svg";
+import concepts from "@/assets/badge/concepts.svg";
+import designs from "@/assets/badge/designs.svg";
+import ideas from "@/assets/badge/ideas.svg";
 
 export {
   ponggame,
