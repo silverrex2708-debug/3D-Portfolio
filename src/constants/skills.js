@@ -1,15 +1,15 @@
-import photoshop from "../assets/Photoshop Logo.png";
-import illustrator from "../assets/Illustrator Logo.png";
-import figma from "../assets/tech/figma.svg";
-import blender from "../assets/tech/blender.svg";
-import clipstudiopaint from "../assets/Clip Studios Logo.png";
-import aftereffects from "../assets/After Logo.png";
-import canva from "../assets/tech/canva.svg";
-import word from "../assets/Word Logo.png";
-import excel from "../assets/Excel Logo.png";
-import powerpoint from "../assets/Power Point Logo.png";
-import premierepro from "../assets/Premiere Pro Logo.png";
-import audition from "../assets/Audition Logo.png";
+import photoshop from "@/assets/Photoshop Logo.png";
+import illustrator from "@/assets/Illustrator Logo.png";
+import figma from "@/assets/tech/figma.svg";
+import blender from "@/assets/tech/blender.svg";
+import clipstudiopaint from "@/assets/Clip Studios Logo.png";
+import aftereffects from "@/assets/After Logo.png";
+import canva from "@/assets/tech/canva.svg";
+import word from "@/assets/Word Logo.png";
+import excel from "@/assets/Excel Logo.png";
+import powerpoint from "@/assets/Power Point Logo.png";
+import premierepro from "@/assets/Premiere Pro Logo.png";
+import audition from "@/assets/Audition Logo.png";
 
 // Skill names enum
 export const SkillNames = {
